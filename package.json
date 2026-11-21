@@ -1,19 +1,4 @@
 {
-  "name": "goof",
-  "version": "1.0.1",
-  "description": "A vulnerable todo demo application",
-  "homepage": "https://snyk.io/",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Snyk/snyk-todo-list-demo-app/"
-  },
-  "scripts": {
-    "dev": "NODE_OPTIONS=--openssl-legacy-provider nodemon ./app.js",
-    "start": "NODE_OPTIONS=--openssl-legacy-provider node app.js",
-    "build": "browserify -r jquery > public/js/bundle.js",
-    "cleanup": "mongo express-todo --eval 'db.todos.remove({});'",
-    "test": "snyk test"
-  },
   "dependencies": {
     "adm-zip": "0.4.7",
     "body-parser": "1.9.0",
@@ -25,7 +10,7 @@
     "ejs-locals": "1.0.2",
     "errorhandler": "1.2.0",
     "express": "4.12.4",
-    "express-fileupload": "0.0.5",
+    "express-fileupload": "1.6.0",
     "express-session": "^1.17.2",
     "file-type": "^8.1.0",
     "hbs": "^4.0.4",
@@ -48,10 +33,25 @@
     "typeorm": "^0.2.24",
     "validator": "^13.5.2"
   },
+  "description": "A vulnerable todo demo application",
   "devDependencies": {
     "browserify": "^13.1.1",
     "nodemon": "^2.0.7",
     "snyk": "^1.244.0"
   },
-  "license": "Apache-2.0"
+  "homepage": "https://snyk.io/",
+  "license": "Apache-2.0",
+  "name": "goof",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Snyk/snyk-todo-list-demo-app/"
+  },
+  "scripts": {
+    "build": "browserify -r jquery \u003e public/js/bundle.js",
+    "cleanup": "mongo express-todo --eval 'db.todos.remove({});'",
+    "dev": "NODE_OPTIONS=--openssl-legacy-provider nodemon ./app.js",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider node app.js",
+    "test": "snyk test"
+  },
+  "version": "1.0.1"
 }
