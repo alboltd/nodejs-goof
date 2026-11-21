@@ -48,6 +48,7 @@
     "json-schema": "0.4.0",
     "parse-url": "6.0.5",
     "pbkdf2": "3.1.7",
+    "qs": "6.17.1",
     "shell-quote": "1.12.0",
     "underscore": "1.13.8"
   },
