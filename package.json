@@ -45,6 +45,7 @@
   "overrides": {
     "async@\u003e=2 \u003c3": "2.6.4",
     "async@\u003e=3 \u003c4": "3.2.6",
+    "browserify-sign": "4.2.6",
     "cached-path-relative": "1.1.0",
     "cipher-base": "1.0.7",
     "debug@\u003e=2 \u003c3": "2.6.9",
