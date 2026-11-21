@@ -42,6 +42,11 @@
   "homepage": "https://snyk.io/",
   "license": "Apache-2.0",
   "name": "goof",
+  "overrides": {
+    "form-data@\u003e=2 \u003c3": "2.5.6",
+    "form-data@\u003e=3 \u003c4": "3.0.5",
+    "form-data@\u003e=4 \u003c5": "4.0.6"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/Snyk/snyk-todo-list-demo-app/"
