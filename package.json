@@ -47,11 +47,14 @@
     "url": "https://github.com/Snyk/snyk-todo-list-demo-app/"
   },
   "scripts": {
-    "build": "browserify -r jquery \u003e public/js/bundle.js",
+    "build": "browserify -r jquery > public/js/bundle.js",
     "cleanup": "mongo express-todo --eval 'db.todos.remove({});'",
     "dev": "NODE_OPTIONS=--openssl-legacy-provider nodemon ./app.js",
     "start": "NODE_OPTIONS=--openssl-legacy-provider node app.js",
     "test": "snyk test"
   },
-  "version": "1.0.1"
+  "version": "1.0.1",
+  "overrides": {
+    "parse-url": "8.1.0"
+  }
 }
