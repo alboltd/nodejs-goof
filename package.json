@@ -49,14 +49,15 @@
     "parse-url": "6.0.5",
     "pbkdf2": "3.1.7",
     "shell-quote": "1.12.0",
-    "underscore": "1.13.8"
+    "underscore": "1.13.8",
+    "ini": "1.3.8"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/Snyk/snyk-todo-list-demo-app/"
   },
   "scripts": {
-    "build": "browserify -r jquery \u003e public/js/bundle.js",
+    "build": "browserify -r jquery > public/js/bundle.js",
     "cleanup": "mongo express-todo --eval 'db.todos.remove({});'",
     "dev": "NODE_OPTIONS=--openssl-legacy-provider nodemon ./app.js",
     "start": "NODE_OPTIONS=--openssl-legacy-provider node app.js",
