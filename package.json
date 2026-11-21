@@ -43,6 +43,8 @@
   "license": "Apache-2.0",
   "name": "goof",
   "overrides": {
+    "async@\u003e=2 \u003c3": "2.6.4",
+    "async@\u003e=3 \u003c4": "3.2.6",
     "cipher-base": "1.0.7",
     "elliptic": "6.6.1",
     "json-schema": "0.4.0",
