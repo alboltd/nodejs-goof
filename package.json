@@ -66,6 +66,9 @@
     "dot-prop@\u003e=4 \u003c5": "4.2.1",
     "dot-prop@\u003e=5 \u003c6": "5.3.0",
     "elliptic": "6.6.1",
+    "express-session": {
+      "cookie": "0.7.2"
+    },
     "figlet": "1.12.0",
     "fresh": "0.5.2",
     "got@\u003c11": "11.8.6",
