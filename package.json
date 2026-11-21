@@ -43,23 +43,19 @@
   "license": "Apache-2.0",
   "name": "goof",
   "overrides": {
-    "form-data@\u003e=2 \u003c3": "2.5.6",
-    "form-data@\u003e=3 \u003c4": "3.0.5",
-    "form-data@\u003e=4 \u003c5": "4.0.6"
+    "json-schema": "0.4.0",
+    "parse-url": "6.0.5"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/Snyk/snyk-todo-list-demo-app/"
   },
   "scripts": {
-    "build": "browserify -r jquery > public/js/bundle.js",
+    "build": "browserify -r jquery \u003e public/js/bundle.js",
     "cleanup": "mongo express-todo --eval 'db.todos.remove({});'",
     "dev": "NODE_OPTIONS=--openssl-legacy-provider nodemon ./app.js",
     "start": "NODE_OPTIONS=--openssl-legacy-provider node app.js",
     "test": "snyk test"
   },
-  "version": "1.0.1",
-  "overrides": {
-    "json-schema": "0.4.0"
-  }
+  "version": "1.0.1"
 }
