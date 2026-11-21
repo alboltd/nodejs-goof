@@ -83,6 +83,7 @@
     "mime@\u003e=2 \u003c3": "2.6.0",
     "nconf": "0.11.4",
     "negotiator": "0.6.4",
+    "on-headers": "1.1.0",
     "pac-resolver": "5.0.1",
     "parse-path": "5.0.0",
     "parse-url": "6.0.5",
