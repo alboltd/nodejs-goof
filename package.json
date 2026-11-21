@@ -75,7 +75,8 @@
     "qs": "6.17.1",
     "shell-quote": "1.12.0",
     "underscore": "1.13.8",
-    "toml": "4.3.0"
+    "toml": "4.3.0",
+    "browserify-sign": "4.2.6"
   },
   "repository": {
     "type": "git",
