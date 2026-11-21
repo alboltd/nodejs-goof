@@ -43,9 +43,8 @@
   "license": "Apache-2.0",
   "name": "goof",
   "overrides": {
-    "form-data@\u003e=2 \u003c3": "2.5.6",
-    "form-data@\u003e=3 \u003c4": "3.0.5",
-    "form-data@\u003e=4 \u003c5": "4.0.6"
+    "json-schema": "0.4.0",
+    "shell-quote": "1.12.0"
   },
   "repository": {
     "type": "git",
@@ -58,8 +57,5 @@
     "start": "NODE_OPTIONS=--openssl-legacy-provider node app.js",
     "test": "snyk test"
   },
-  "version": "1.0.1",
-  "overrides": {
-    "json-schema": "0.4.0"
-  }
+  "version": "1.0.1"
 }
