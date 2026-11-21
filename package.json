@@ -62,6 +62,7 @@
     "nconf": "0.11.4",
     "negotiator": "0.6.4",
     "pac-resolver": "5.0.1",
+    "parse-path": "5.0.0",
     "parse-url": "6.0.5",
     "path-to-regexp@\u003c1": "0.1.13",
     "path-to-regexp@\u003e=1 \u003c2": "1.9.0",
